@@ -6,7 +6,7 @@ public class EvenOdd {
     public static void main(String[] args) {
         int num;
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter any number: ");
+        System.out.print("Enter any number: ");
         num = in.nextInt();
 
         evenodd(num);

@@ -6,11 +6,11 @@ public class MinMax {
     public static void main(String[] args) {
         int first, second, third;
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
+        System.out.print("Enter First Number: ");
         first = in.nextInt();
-        System.out.println("Enter First Number: ");
+        System.out.print("Enter First Number: ");
         second = in.nextInt();
-        System.out.println("Enter First Number: ");
+        System.out.print("Enter First Number: ");
         third = in.nextInt();
 
         int maximum = maximum(first, second, third);

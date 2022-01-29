@@ -1,0 +1,43 @@
+# String Variables
+myself: Vishwas Acharya
+myself: "Vishwas Acharya"
+myself: 'Vishwas Acharya'
+# ☝ All of above three is same.
+
+bio: | 
+Hi, My name is Vishwas Acharya.
+I love working in tech.
+
+# Write in multiple line but get everything in single line 
+message: >
+This is written
+as multiple lines,
+But is read as a single line
+
+number: 123
+marks: 70.00
+booleanValue: No # n, N, false, False, FALSE
+
+# Specify the TYPE
+
+# int
+zero: !!int 0
+positiveNumber: !!int 45
+negativeNumber: !!int -45
+binaryNumber: !!int 001
+octalNum: !!int 0236
+hexa: !!int 0x55
+commaValue: !!int +123_000 # 123,000 
+
+# floating point numbers
+marks: !!float 12.12
+infinite: !!float .inf #Infinite
+not a num: .nan # Not A Number
+
+# Bool
+isMale: !!bool true
+isFemale: !!bool false
+
+#null
+id: !!null Null # 👈 Null / null / ~
+~: A Null Key

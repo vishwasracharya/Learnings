@@ -1,0 +1,9 @@
+# Websites
+1: Yaml lint website (http://www.yamllint.com/)
+2: Online Yaml Tools (https://onlineyamltools.com/)
+
+#Notes
+- yaml is case sensitive
+- here ( ... ) means end of the file
+- here ( --- ) means different documents
+- file extention can be .yml or .yaml , both are same

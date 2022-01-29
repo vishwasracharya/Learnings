@@ -1,0 +1,28 @@
+student: !!seq
+ - marks
+ - name
+ - roll-no
+
+# some times the keys of seq will be empty
+# sparse seq
+sparse seq:
+ - hello
+ - 
+ - Null
+
+# Nested Seq
+- 
+ - apple
+ - strawberry
+-
+ - mango
+ - banana
+
+# key: value pairs are called maps
+!!maps
+
+#nested maps
+name: Vishwas Acharya
+role:
+ age: 22
+ job: Software Engineer

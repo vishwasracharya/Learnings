@@ -28,6 +28,7 @@ binaryNumber: !!int 001
 octalNum: !!int 0236
 hexa: !!int 0x55
 commaValue: !!int +123_000 # 123,000 
+exp numbers: 1.023E56
 
 # floating point numbers
 marks: !!float 12.12
@@ -41,3 +42,7 @@ isFemale: !!bool false
 #null
 id: !!null Null # 👈 Null / null / ~
 ~: A Null Key
+
+#dates and time
+date: !!timestamp 2022-01-29
+indian time: 2022-01-23T09:13:00.00 +5:30

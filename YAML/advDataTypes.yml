@@ -26,3 +26,42 @@ name: Vishwas Acharya
 role:
  age: 22
  job: Software Engineer
+
+ # pairs: keys may have duplicate values
+ # !!pairs
+
+ pair exam]ple: !!pairs
+ - job: student
+ - job: teacher
+
+# ☝ same as above just the writing method is different
+ pair exam]ple: !!pairs [job: student, job: teacher]
+# this will be array of hashtables
+
+# !!set will allow you to have unique values
+names: !!set
+? Vishwas
+? Raj
+? Ajay
+
+# dictionary !!omap
+people: !!omap
+ - Vishwas: 
+  - name: Vishwas Acharya
+  - age: 22
+  - height: 555
+ - Raj:
+  - name: Raj Sharma
+  - age: 23
+  - height: 543
+
+# reusing some properties usin anchors
+
+favs: &favs
+ fruit: mango
+ color: purple
+ number: 1
+
+person1:
+ name: Vishwas Acharya
+ <<: *likes

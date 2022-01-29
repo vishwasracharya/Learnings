@@ -2,8 +2,53 @@
 1: Yaml lint website (http://www.yamllint.com/)
 2: Online Yaml Tools (https://onlineyamltools.com/)
 
-#Notes
+# Notes
 - yaml is case sensitive
 - here ( ... ) means end of the file
 - here ( --- ) means different documents
 - file extention can be .yml or .yaml , both are same
+
+---Same Example in Yaml,Json,xml---
+
+# XML
+<School name="IIT" principal="Ajay Sharma">
+    <Students>
+        <Student>
+            <rno>01</rno>
+            <name>"Vishwas Acharya"</name>
+            <marks>90</marks>
+        </Student>
+    </Students>
+</School>
+
+# YAML
+---
+School:
+ - name: IIT
+   principal: Ajay Sharma
+   Student:
+    - rno: 01
+      name: Vishwas Acharya
+      marks: 90
+...
+  
+# JSON
+{} represents entity
+[] represents collection
+
+Example 👇
+{
+    "School": [
+        {
+            "name": "IIT",
+            "principal": "Ajay Sharma",
+            "Students": [
+            {
+                "rno": "01",
+                "name": "\"Vishwas Acharya\"",
+                "marks": "90"
+            }
+        ]
+      }
+    ]
+}

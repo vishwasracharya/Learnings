@@ -5,3 +5,19 @@
         "khambhat"
     ]
 }
+
+{
+    "School": [
+        {
+            "name": "IIT",
+            "principal": "Ajay Sharma",
+            "Students": [
+            {
+                "rno": "01",
+                "name": "\"Vishwas Acharya\"",
+                "marks": "90"
+            }
+        ]
+      }
+    ]
+}

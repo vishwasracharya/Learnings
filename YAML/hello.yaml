@@ -1,0 +1,23 @@
+"banana" : "I am a yellow fruit"
+1: "This is Vishwas Acharya Roll Number"
+
+---
+# Lists
+colors:
+- Blue
+- blue
+- Yellow
+- Green
+
+---
+cities:
+- mumbai
+- anand
+- khambhat
+
+---
+cities: [new delhi, mumbai]
+
+---
+{apple: "red fruit", age: 50}
+...

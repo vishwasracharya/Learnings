@@ -64,4 +64,4 @@ favs: &favs
 
 person1:
  name: Vishwas Acharya
- <<: *likes
+ <<: *favs   # 👈 This will reuse the properties from above (fruit,color,number)

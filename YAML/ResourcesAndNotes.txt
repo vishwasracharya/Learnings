@@ -1,16 +1,30 @@
-# Websites
+---
+
+YAML = YAML Aint Markup Language
+- previously it was known as "Yet Another Markup Lnaguage"
+ - reason for change in full form is Markup lang. stores documents but yaml stores documents as well as object data as well.
+
+---
+
+# Websites 
 1: Yaml lint website (http://www.yamllint.com/)
 2: Online Yaml Tools (https://onlineyamltools.com/)
 
-# Notes
+---
+
+# Notes 📕
 - yaml is case sensitive
 - here ( ... ) means end of the file
 - here ( --- ) means different documents
 - file extention can be .yml or .yaml , both are same
+- yaml can only store data and NOT commands
+- Use Spaces for indentation, NOT Tabs
 
----Same Example in Yaml,Json,xml---
+---
 
-# XML
+# Same Example in Yaml,Json,xml
+
+# XML = Extensible Markup Language
 <School name="IIT" principal="Ajay Sharma">
     <Students>
         <Student>
@@ -21,7 +35,7 @@
     </Students>
 </School>
 
-# YAML
+# YAML = YAML Aint Markup Language
 ---
 School:
  - name: IIT
@@ -32,7 +46,7 @@ School:
       marks: 90
 ...
   
-# JSON
+# JSON = JavaScript Object Notion
 {} represents entity
 [] represents collection
 
@@ -52,3 +66,5 @@ Example 👇
       }
     ]
 }
+
+...

@@ -1,3 +1,5 @@
+---
+
 # String Variables
 myself: Vishwas Acharya
 myself: "Vishwas Acharya"
@@ -17,6 +19,8 @@ But is read as a single line
 number: 123
 marks: 70.00
 booleanValue: No # n, N, false, False, FALSE
+
+---
 
 # Specify the TYPE
 
@@ -46,3 +50,5 @@ id: !!null Null # 👈 Null / null / ~
 #dates and time
 date: !!timestamp 2022-01-29
 indian time: 2022-01-23T09:13:00.00 +5:30
+
+...

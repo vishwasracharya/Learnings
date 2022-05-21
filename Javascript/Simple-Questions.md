@@ -20,3 +20,16 @@ console.log(Math.max(...a)); // OUTPUT: 888
 let a = [2, 5, 1, 12, 120, 46, 123, 0, 888, -999, -122];
 console.log(Math.min(...a)); // OUTPUT: -999
 ```
+
+### 3. Find Max and min number from an array using function.
+```
+function getMaxOfArray(numArray) {
+  return Math.max.apply(null, numArray);
+}
+function getMinOfArray(numArray) {
+  return Math.min.apply(null, numArray);
+}
+let arr = [5, 2, 10, 6];
+getMaxOfArray(arr); // OUTPUT: 10
+getMinOfArray(arr); // OUTPUT: 2
+```

@@ -34,3 +34,6 @@ let arr = [5, 2, 10, 6];
 getMaxOfArray(arr); // OUTPUT: 10
 getMinOfArray(arr); // OUTPUT: 2
 ```
+
+### 4. What is hoisting?
+<strong>Refrence:</strong> https://developer.mozilla.org/en-US/docs/Glossary/Hoisting

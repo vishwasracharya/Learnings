@@ -1,5 +1,9 @@
 # Simple Question
 
+## List of Questions
+1. [Find Max number from an array.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#1-find-max-number-from-an-array)
+2. [Find Min number from an array.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#2-find-min-number-from-an-array)
+
 ### 1. Find Max number from an array.
 <strong>Ans:</strong> Use in-built function of JavaScript => `Math.max` <br>
 <strong>Example:</strong> 

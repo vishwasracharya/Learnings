@@ -1,4 +1,5 @@
 # Simple Question
+This are some simple questions, that I may have encounterd during an interview of learning a new thing. Hope it helps you. 😉
 
 ## List of Questions
 1. [Find Max number from an array.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#1-find-max-number-from-an-array)

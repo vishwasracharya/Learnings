@@ -4,6 +4,7 @@ This are some simple questions, that I may have encounterd during an interview o
 ## List of Questions
 1. [Find Max number from an array.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#1-find-max-number-from-an-array)
 2. [Find Min number from an array.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#2-find-min-number-from-an-array)
+3. [Find Max and min number from an array using function.](https://github.com/vishwasracharya/Learnings/blob/main/Javascript/Simple-Questions.md#3-find-max-and-min-number-from-an-array-using-function)
 
 ### 1. Find Max number from an array.
 <strong>Ans:</strong> Use in-built function of JavaScript => `Math.max` <br>

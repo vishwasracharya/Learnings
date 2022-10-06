@@ -1,1 +1,1 @@
-# Auto Scling
+# Auto Scaling
